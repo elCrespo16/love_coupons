@@ -1,0 +1,1 @@
+0 9,14,20 * * * cd $HOME/love_coupons && docker compose up
