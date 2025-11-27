@@ -1,0 +1,9 @@
+---
+services:
+  app:
+    build: .
+    environment:
+      TELEGRAM_BOT_TOKEN: "${TELEGRAM_BOT_TOKEN}"
+      USER_ID: "${USER_ID}"
+    volumes:
+    - .:/code
